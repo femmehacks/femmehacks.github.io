@@ -1,10 +1,10 @@
 # femmehacks2017
 
-two panels 
-left panel:
-  registration
-  about
-  resources
-  faq
-  sponsor
+two panels \n
+left panel: \n
+  registration\n
+  about\n
+  resources\n
+  faq\n
+  sponsor\n
   
