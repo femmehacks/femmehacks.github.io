@@ -1,8 +1,34 @@
-.correctcolor{
-        background-color: green;
-}
+/*
+ * FemmeHacks 2016 theme
+ * Designed by Amelia Goodman and Anvita Achar.
+ * Made with luv and Bootstrap
+ * Theme color: #FA8072;
+ */
+
+
+/*@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);*/
 
 body {
 	background-color: #FA8072;
 	color: white;
+	font-family: 'Josefin Sans', sans-serif, "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#header {
+    display: table;
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: url(../img/philly.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+#menu {
+    min-height: 10em;
+    display: table-cell;
+    vertical-align: middle;
 }
