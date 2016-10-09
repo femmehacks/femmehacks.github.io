@@ -75,6 +75,17 @@ body {
     border-radius: 10px;
 }
 
+.navbar-brand,
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar-brand,
+.navbar .navbar-collapse {
+  text-align: center;
+}
 
 /* SCHEDULE */
 #sched-list-el {
