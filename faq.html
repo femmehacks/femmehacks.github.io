@@ -20,11 +20,13 @@
     <link rel="icon" type="image/png" href="img/favicons/android-chrome-192x192.png" sizes="192x192">
     <link rel="icon" type="image/png" href="img/favicons/favicon-16x16.png" sizes="16x16">
 
+    <link rel="stylesheet" href="./animsition/dist/css/animsition.min.css">
+
     <title>FemmeHacks 2017</title>
 </head>
 
 <body>
-
+<div class="animsition">
 <nav class="navbar navbar-default">
     <div class="container-fluid">
         <div class="navbar-header">
@@ -36,15 +38,18 @@
             </button>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            
+
             <ul class="nav navbar-nav">
-                <li><a class="navbar-brand" href="index.html">FemmeHacks</a></li>
-                <li><a href="schedule.html">Schedule</a></li>
-                <li><a href="sponsors.html">Sponsors</a></li>
-                <li><a href="gallery.html">Pics</a></li>
-                <li class="active"><a href="faq.html">FAQ<span class="sr-only">(current)</span></a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="register.html">Register</a></li>
+                <li><a class="navbar-brand animsition-link" href="index.html">FemmeHacks</a></li>
+                <li><a class="animsition-link" href="schedule.html">Schedule</a></li>
+                <li><a class="animsition-link" href="sponsors.html">Sponsors</a></li>
+                <li><a class="animsition-link" href="gallery.html">Pics</a></li>
+                <li class="active animsition-link"><a href="faq.html">FAQ<span class="sr-only">(current)</span></a></li>
+                <li><a class="animsition-link" href="about.html">About Us</a></li>
+                <li><a class="animsition-link" href="register.html">Register</a></li>
             </ul>
+            
         </div>
     </div>
 </nav>
@@ -216,11 +221,25 @@
                 </div>
             </div>
         </div>
+
     </div> <!--close panel group -->
     </div> <!-- close column -->
 </div> <!--close container -->
-</body>
+</div><!--close animsition-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<!-- animsition.js -->
+<script src="./animsition/dist/js/animsition.min.js" charset="utf-8"></script>
+<script>
+  $(document).ready(function() {
+    $('.animsition').animsition({
+        inClass: 'fade-in-left',
+        outClass: 'fade-out-right',
+    })
+  });
+</script>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</body>
+    
 <script src="js/bootstrap.min.js"></script>
+
 </html>
