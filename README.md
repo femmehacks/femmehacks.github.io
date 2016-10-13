@@ -1,10 +1,3 @@
 # femmehacks2017
 
-two panels 
-left panel: 
-  registration
-  about
-  resources
-  faq
-  sponsor
-  
+FemmeHacks is an all women, beginner friendly, fun, exciting, supportive hackathon
