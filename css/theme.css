@@ -25,6 +25,13 @@ body {
     color: black;
 }
 
+.home-logo {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
 .header-bg {
     background-color:rgba(0, 0, 0, 0.6);
     top: 0;
@@ -48,8 +55,24 @@ body {
 .info-box {
     padding: 70px;
     border-radius: 20px;
-    margin-top: 25%;
+    margin-top: 10%;
+    text-align: center;
 }
+
+.disclaimer-star {
+    color:#FA8072;
+    cursor: pointer;
+}
+
+.disclaimer{
+  color:#FA8072;
+  display: none;   
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
 
 .titleText{
     text-align: center;

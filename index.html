@@ -34,9 +34,10 @@
 			<div class="col-md-9" id="header">
         <div class = "header-bg">
 				<div class="info-box">
+          <img class = "home-logo" src = "img/logo-square.png">
 					<h1 class = "titleText">FemmeHacks 2017</h1>
-					<h3 id = "description">An all-women<span style="color:#FA8072">*</span> collegiate hackathon in Philadelphia</h3> <br>
-					<h4 style="color:#FA8072">*we realize "women" is a complicated term. FemmeHacks welcomes trans and cis women, as well as nonbinary and gender non-conforming folks :). Equality for all, y'all.</h4>
+					<h3 id = "description">An all-women<span class = "disclaimer-star">*</span> collegiate hackathon in Philadelphia</h3> <br>
+					<h4 class = "disclaimer">*we realize "women" is a complicated term. FemmeHacks welcomes trans and cis women, as well as nonbinary and gender non-conforming folks :). Equality for all, y'all.</h4>
 
                <!-- <h2>February 19th - 20th, 2016</h2>
                     <h2>University of Pennsylvania: The 2nd Floor of Jon M. Huntsman Hall</h2>
@@ -61,6 +62,7 @@
             </ul>
 					</div>
 					<div class="row">
+          <br/>
 						<div class="col-lg-10 col-lg-offset-1 text-center">
 							<ul class="list-inline">
 								<li><a href="mailto:hi@femmehacks.io"><i class="fa fa-envelope-o fa-fw fa-3x"></i></a></li>
@@ -85,6 +87,12 @@
         $('.animsition').animsition({
             inClass: 'fade-in-left',
             outClass: 'fade-out-right',
+        })
+        $('.disclaimer-star').mouseenter(function(){
+          $('.disclaimer').show();
+        })
+        $('.disclaimer-star').mouseleave(function(){
+          $('.disclaimer').hide();
         })
 		  });
 	</script>
