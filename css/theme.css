@@ -91,6 +91,28 @@ body {
     margin-top: 35%;
 }
 
+@media screen and (max-width: 680px) {
+    .header-bg {
+        display:none;
+    }
+    #header {
+        height:0;
+    }
+    #text {
+        margin-top: 0;
+    }
+    #menu {
+        background: linear-gradient(
+                rgba(0, 0, 0, 0.45),
+                rgba(0, 0, 0, 0.45)
+            ), url(../img/philly.jpg) no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+}
+
 /* INDEX NAV */
 .main-nav {
     padding-top: 20px;
