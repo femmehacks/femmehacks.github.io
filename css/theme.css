@@ -186,6 +186,48 @@ body {
     text-decoration: underline;
 }
 
+/* SPONSORS */
+.terra img {
+    transform: scale(.8);
+    transition: all .35s ease-in-out;
+}
+
+.terra img:hover {
+    transform: scale(.95);
+}
+
+.giga img {
+    transform: scale(.6);
+    transition: all .35s ease-in-out;
+}
+
+.giga img:hover {
+    transform: scale(.75);
+}
+
+.kilo img {
+    transform: scale(.5);
+    transition: all .35s ease-in-out;
+}
+
+.kilo img:hover {
+    transform: scale(.6);
+}
+
+.other img {
+    transform: scale(.4);
+    transition: all .35s ease-in-out;
+}
+
+.other img:hover {
+    transform: scale(.45);
+}
+
+.sponsor-images table tr,td {
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 1%;
+}
 
 /* FAQ */
 #faq .panel-body{
