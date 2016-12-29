@@ -187,9 +187,13 @@ body {
 }
 
 /* SPONSORS */
+.terra>.row {
+    padding-top:40px;
+}
 .terra img {
     transform: scale(.8);
-    width: 100%;
+    max-width: 100%;
+    max-height: 200px;
     transition: all .35s ease-in-out;
 }
 
@@ -208,6 +212,8 @@ body {
 
 .kilo img {
     transform: scale(.5);
+    max-width: 100%;
+    max-height: 100px;
     transition: all .35s ease-in-out;
 }
 
