@@ -211,14 +211,14 @@ body {
 }
 
 .kilo img {
-    transform: scale(.5);
+    transform: scale(.6);
     max-width: 100%;
     max-height: 100px;
     transition: all .35s ease-in-out;
 }
 
 .kilo img:hover {
-    transform: scale(.6);
+    transform: scale(.7);
 }
 
 .other img {
