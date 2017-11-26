@@ -57,6 +57,20 @@ p {
   height: 350px;
 }
 
+
+.asterisk {
+  color:#FA8072;
+}
+
+.asterisk:hover {
+    color: black;
+}
+
+.disclaimer{
+  color:#FA8072;
+  font-size: 20px;
+}
+
 .intro{
 
   color:black;
@@ -103,6 +117,7 @@ background-color: white;
 
 table td{
   text-align: left;
+  font-size:20px;
 }
 
 footer .page-footer{
