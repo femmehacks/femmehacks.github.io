@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<!-- other css -->
+	<link href="css/theme.css" rel="stylesheet">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- for mobile w/ avoiding zooming in -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+
+	<!-- for favicons -->
+	<link rel="icon" type="image/png" href="img/favicons/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="img/favicons/favicon-194x194.png" sizes="194x194">
+	<link rel="icon" type="image/png" href="img/favicons/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="img/favicons/android-chrome-192x192.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="img/favicons/favicon-16x16.png" sizes="16x16">
+
+	<!-- animsition.css -->
+	<link rel="stylesheet" href="./animsition/dist/css/animsition.min.css">
+
+
+	<title>FemmeHacks 2017</title>
+</head>
+<body>
+<div class="animsition">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-9 col-sm-8 col-xs-0" id="header">
+                <div class = "header-bg">
+				    <div class="info-box">
+                        <img class = "home-logo" src = "img/logo-square.png">
+					   <h1 class = "titleText">FemmeHacks 2017</h1>
+                       <h2 class = "titleText">February 24-25th</h1>
+					   <h3 id = "description">An all-women<span class = "disclaimer-star">*</span> collegiate hackathon in Philadelphia</h3> <br>
+					   <h4 class = "disclaimer">*we realize "women" is a complicated term. FemmeHacks welcomes trans and cis women, as well as nonbinary and gender non-conforming folks :). Equality for all, y'all.</h4>
+
+                        <!-- <h2>February 19th - 20th, 2016</h2>
+                        <h2>University of Pennsylvania: The 2nd Floor of Jon M. Huntsman Hall</h2>
+                        <p class="lead">Hosted by the Women in Computer Science chapter @ <a href="http://www.seas.upenn.edu/~wics">Penn WiCS</a>.</p>
+
+                        <p><em> FemmeHacks is an all-women collegiate hackathon that aims to create a welcoming environment for women in tech. FemmeHacks is available to all women, beginner to experienced, and allows students to explore their passion for tech by building on web, mobile and hardware to create projects over the weekend. This is FemmeHacks’ third year, and we can't wait to make it our best yet.</em></p>
+                        </div> -->
+                    </div>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-4 col-xs-12" id="menu">
+				<div id="text">
+					<h1>FemmeHacks 2017</h1>
+					<h4>and we back </h4>
+                    <ul class = "main-nav">
+  						<li><a class="animsition-link" href="schedule.html" >Schedule</a></li>
+  						<li><a class="animsition-link" href="sponsors.html" >Sponsors</a></li>
+  						<li><a class="animsition-link" href="gallery.html" >Pics or it didn't happen</a></li>
+  						<li><a class="animsition-link" href="faq.html">FAQ</a></li>
+  						<li><a class="animsition-link" href="about.html">About Us</a></li>
+  						<li><a class="animsition-link" href="register.html">Register</a></li>
+                        <li><a class="animsition-link" href="conduct.html">Code of Conduct</a></li>
+                        <li><a class="animsition-link" href="resources.html">Resources</a></li>
+                    </ul>
+				</div>
+				<div class="row"><br>
+				    <div class="text-center">
+					   <ul class="list-inline">
+							<li><a href="mailto:hi@femmehacks.io"><i class="fa fa-envelope-o fa-fw fa-3x"></i></a></li>
+							<li><a href="https://www.facebook.com/femmehacks" target="_blank"><i class="fa fa-facebook fa-fw fa-3x"></i></a></li>
+							<li><a href="https://www.twitter.com/femmehacks" target="_blank"><i class="fa fa-twitter fa-fw fa-3x"></i></a></li>
+							<li><a href="https://www.instagram.com/femmehacks/" target="_blank"><i class="fa fa-instagram fa-fw fa-3x"></i></a></li>
+						</ul>
+						<hr class="small">
+						<p class="text-muted">Made with <span style="color: #F3BDB7">♥</span> by the FemmeHacks team </p>
+                        <p class="text-muted"><a class="animsition-link" href="fh16/index.html"><span style="font-size:.8em">Archive: FemmeHacks 2016 Site</span></a></p>
+					</div>
+				</div>
+			</div>
+
+		</div> <!--close row-->
+	</div><!--close container-->
+</div><!--close animsition-->
+
+<!-- jquery js -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+
+<!-- animsition.js -->
+<script src="./animsition/dist/js/animsition.min.js" charset="utf-8"></script>
+<script>
+    $(document).ready(function() {
+        $('.animsition').animsition({
+            inClass: 'fade-in-left',
+            outClass: 'fade-out-left',
+        })
+        $('.disclaimer-star').mouseenter(function(){
+            $('.disclaimer').show();
+        })
+        $('.disclaimer-star').mouseleave(function(){
+            $('.disclaimer').hide();
+        })
+    });
+</script>
+
+</body>
+</html>

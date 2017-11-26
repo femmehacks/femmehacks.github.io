@@ -1,0 +1,113 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ @import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+
+nav ul a,
+nav .brand-logo {
+  color: #white;
+}
+
+
+p {
+  line-height: 2rem;
+}
+
+.container{
+      font-family: Josefin Sans;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  font-family: Josefin Sans;
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+
+}
+  .parallax-container .section {
+
+    width: 100%;
+  }
+
+  .parallax-container .container {
+    background-color: rgba(0,0,0,.4);
+    border-radius: 10px;
+  }
+
+  .parallax-container .header {
+
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+   
+
+  }
+
+.photo-grid img{
+  height: 350px;
+}
+
+.intro{
+
+  color:black;
+  border-radius: 8px;
+  text-align: center;
+  font-family: Josefin Sans;
+  font-size: 18px;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.container .collapsible-header{
+font-size: 20px;
+ color:#FA8072;
+background-color: black;
+}
+
+
+.container .collapsible-body{
+
+background-color: white;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+table td{
+  text-align: left;
+}
+
+footer .page-footer{
+  color:green;
+}
+footer .page-footer {
+  
+}

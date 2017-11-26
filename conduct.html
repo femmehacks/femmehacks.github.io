@@ -1,73 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>FemmeHacks</title>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <!-- other css -->
-    <link href="css/theme.css" rel="stylesheet">
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- for mobile w/ avoiding zooming in -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
-
-    <!-- for favicons -->
-    <link rel="icon" type="image/png" href="img/favicons/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="img/favicons/favicon-194x194.png" sizes="194x194">
-    <link rel="icon" type="image/png" href="img/favicons/favicon-96x96.png" sizes="96x96">
-    <link rel="icon" type="image/png" href="img/favicons/android-chrome-192x192.png" sizes="192x192">
-    <link rel="icon" type="image/png" href="img/favicons/favicon-16x16.png" sizes="16x16">
-
-    <link rel="stylesheet" href="./animsition/dist/css/animsition.min.css">
-
-    <title>FemmeHacks 2017</title>
+  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
 </head>
-
 <body>
-<div class="animsition">
-<nav class="navbar navbar-default">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
-        </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li><a class="navbar-brand animsition-link" href="index.html">FemmeHacks</a></li>
-                <li><a href="schedule.html" class="animsition-link">Schedule</a></li>
-                <li><a href="sponsors.html" class="animsition-link">Sponsors</a></li>
-                <li><a class="animsition-link" href="gallery.html">Pics</a></li>
-                <li><a class="animsition-link" href="about.html">About Us</a></li>
-                <li><a class="animsition-link" href="register.html">Register</a></li>
-                <li class="active"><a class="animsition-link" href="#">Code of Conduct<span class="sr-only">(current)</span></a></li>
-                <li><a class="animsition-link" href="resources.html">Resources</a></li>
-            </ul>
-        </div>
+  <nav class="salmon" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="index.html" class="brand-logo white"><img src = "logo.png"></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">home</a></li>
+        <li><a href="aboutus.html">about us</a></li>
+        <li><a href="schedule.html">schedule</a></li>
+        <li><a href="sponsors.html">sponsors</a></li>
+        <li><a href="faq.html">faq</a></li>
+        <li><a href="conduct.html">code of conduct</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
-</nav>
-<object id="conduct" data="code_of_conduct.pdf" type="application/pdf" width="100%" height="100%">
+  </nav>
+
+
+
+
+<div class="container">
+    <div class="section">
+
+
+    <div class = "row">
+      <object id="conduct" data="code_of_conduct.pdf" type="application/pdf" width="100%" height="1000px">
 </object>
+ 
+    
+    </div>
 
-</div><!--close animsition-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<!-- animsition.js -->
-<script src="./animsition/dist/js/animsition.min.js" charset="utf-8"></script>
-<script>
-  $(document).ready(function() {
-    $('.animsition').animsition({
-        inClass: 'fade-in-left',
-        outClass: 'fade-out-left',
-    })
-  });
-</script>
-</body>
 
-<script src="js/bootstrap.min.js"></script>
+
+	</div>
+</div>
+
+
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
 </html>
