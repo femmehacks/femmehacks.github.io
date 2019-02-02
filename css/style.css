@@ -18,6 +18,11 @@ p {
   line-height: 2rem;
 }
 
+h3 {
+  text-align: center;
+  color: #FFA39A;
+}
+
 .container{
       font-family: Josefin Sans;
 }
