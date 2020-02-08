@@ -7,7 +7,7 @@
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
   <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
@@ -17,51 +17,43 @@
     <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
 </head>
 <body>
-  <nav class="salmon" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="index.html" class="brand-logo"><img src = "white-logo.png" vspace="12"></a>
-      <ul class="right hide-on-med-and-down">
+  <nav class="#FA8072">
+    <div class="nav-wrapper">
+      <a href="index.html" class="brand-logo"><img src="img/white-logo.png"
+      vspace="12"></a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="index.html">home</a></li>
         <li><a href="aboutus.html">about us</a></li>
         <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScDZVcmCbjiELwZ2_7EGA0fDxUaWhR4Ge5u73n3vj9PLppeFA/viewform?usp=sf_link" rel="external">register</a></li>
         <li><a href="schedule.html">schedule</a></li>
         <li><a href="sponsors.html">sponsors</a></li>
         <li><a href="faq.html">faq</a></li>
-         <li><a href="code of conduct.html">code of conduct</a></li>
+        <li><a href="conduct.html">code of conduct</a></li>
       </ul>
-
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="aboutus.html">about us</a></li>
-        <li><a href="http://tiny.cc/femmehacks2019" rel="external">register</a></li>
-        <li><a href="schedule.html">schedule</a></li>
-        <li><a href="sponsors.html">sponsors</a></li>
-        <li><a href="faq.html">faq</a></li>
-         <li><a href="conduct.html">code of conduct</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
-<div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <br><br>
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="index.html">home</a></li>
+    <li><a href="aboutus.html">about us</a></li>
+    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScDZVcmCbjiELwZ2_7EGA0fDxUaWhR4Ge5u73n3vj9PLppeFA/viewform?usp=sf_link" rel="external">register</a></li>
+    <li><a href="schedule.html">schedule</a></li>
+    <li><a href="sponsors.html">sponsors</a></li>
+    <li><a href="faq.html">faq</a></li>
+    <li><a href="conduct.html">code of conduct</a></li>
+  </ul>
 
-        <div class="row center">
-          <h4 class="header col s12 light">schedule</h4>
-        </div>
-
-        <br><br>
-
-      </div>
+  
+  <div class="parallax-container">
+    <div class="parallax"><img src="img/schedule.JPG" id="schedule" alt="hackers"></div>
+    <div class="row center translucent">
+      <h1 class="header col s12 light header">schedule</h1>
     </div>
-    <div class="parallax"><img src="schedule.JPG" width="100%" alt="Unsplashed background img 1"></div>
   </div>
 
-
   <div class="container">
-    <div class="section">
-
-<!--
+    <!--
 <div class = "row">
 <div class = "intro">
 The schedule for FemmeHacks 2020 will be coming soon! We'll have beginner (Track 1) and intermediate (Track 2) workshops on Friday, February 7th in the Penn Engineering Quad, and we'll be in the Pennovation Center all day on Saturday, February 8th with hacking, workshops, and fun events for when you need a break! <br>
@@ -69,80 +61,55 @@ While our schedule is being finalized, check out our schedule from FemmeHacks 20
 <br>
 </div>
 </div>
--->
-      
-     </div>
-     </div>
-
-<div class="container">
-    <div class="section">
+ -->
     <div class = "row">
-      <table class ="highlight">
-        <thead>
-          <tr align="left">
-              <th>Friday, Feburary 7th 2020</th>
-              <th>Saturday, February 8th 2020</th>
-          </tr>
-        </thead>
-
-        <tbody>
-          <tr align="left">
-            <td>4:30-5:00: Check in & registration @ Levine Lobby</td>
-            <td>8:00-8:30: Check in & registration @ Pennovation Center</td>
-          </tr>
-          <tr>
-            <td>5:00-6:00: Dinner @ Levine Lobby</td>
-            <td>8:30-9:00: Breakfast</td>
-          </tr>
-          <tr align="left">
-            <td>6:00-6:45: Intro to GitHub (Tack 1) @ Wu & Chen<br>  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Web Dev @ Berger Auditorium (Track 2)</td>
-            <td>9:00-9:15: Opening Ceremony <br> <b>9:15: Hacking begins!</b><br></td>
-          </tr>
-           <tr align="left">
-            <td>7:00-7:45: Intro to Web Development Part 1 (Track 1) @ Wu & Chen<br>  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Intro to Android @ Berger Auditorium (Track 2)</td>
-            <td>9:30-10:30: How to Prepare for Technical Interviews with Vanguard <br> 10:30-11:30: Computer Graphics: Procedural Shape Generation Workshop </td>
-          </tr>
-         <tr align="left">
-            <td>8:00-8:45: Intro to Web Development Part 2 (Track 1) @ Wu & Chen<br>  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Intro to Python & Flask @ Berger Auditorium (Track 2)</td>
-            <td>12:00-1:00: Lunch + Careers Panel <br> 1:00-2:00: Intro to iOS Development Workshop</td>
-          </tr>
-
-         <tr align="left">
-          <td>9:00-9:30: Ice Breakers + Team Formation @ Wu & Chen</td>
-          <td>1:00-1:30: The Percentage Project, Inc.: Data-Driven Advocacy <br> 1:30-4:00: Photobooth sponsored by The Percentage Project <br>2:00-4:00: Friendship Bracelet Making and Candy Bar</td>
-        </tr>
-          <tr align="left">
-            <td>9:30: GET HYPE 4 TOMORROW ! </td>
-            <td>2:00-3:00: How to Start your own Hackathon/Initiative with FemmeHacks Founders!<br>3:00-4:00: Mocktail Bar sponsored by Red Bull <br> 3:00-4:00: Product Management 101 with Microsoft PM</td>
-          </tr
-          <tr align="left">
-            <td></td>
-            <td>4:00-4:30: Winterfell Boba Break! <br> 4:30-5:30: Talent Show<br> 6:00-7:00 Dinner<br>7:30 Insomnia Cookies sponsored by Bloomberg </td>
-          </tr>
-
-          <tr align="left">
-            <td></td>
-            <td><b>8:30: Hacking ends!</b> SUBMIT YOUR PROJECTS ON DEVPOST! <br> 9:00-9:30: Project Demos <br> 9:30-9:45 Karaoke<br> 9:45-10:30: Closing Ceremony + Awards</td>
-          </tr>
-        </tbody>
-      </table><td></td>
-
+      <div class="col s12 m6">
+        <h3>Friday, Feburary 7th 2020</h3>
+        <p>4:30-5:00: Check in & registration @ Levine Lobby</p>
+        <p>5:00-6:00: Dinner @ Levine Lobby</p>
+        <p>6:00-6:45: Intro to GitHub (Tack 1) @ Wu & Chen<br>Web Dev @ Berger Auditorium (Track 2)</p>
+        <p>7:00-7:45: Intro to Web Development Part 1 (Track 1) @ Wu & Chen<br>Intro to Android @ Berger Auditorium (Track 2)</p>
+        <p>8:00-8:45: Intro to Web Development Part 2 (Track 1) @ Wu & Chen<br>Intro to Python & Flask @ Berger Auditorium (Track 2)</p>
+        <p>9:00-9:30: Ice Breakers + Team Formation @ Wu & Chen</p>
+        <p>9:30: GET HYPE 4 TOMORROW ! </p>
+        <td>8:00-8:30: Check in & registration @ Pennovation Center</td>
+      </div>
+      <div class="col s12 m6">
+        <h3>Saturday, February 8th 2020</h3>
+        <p>8:30-9:00: Breakfast</p>
+        <p>9:00-9:15: Opening Ceremony</p>
+        <p>9:15: Hacking begins!</p>
+        <p>9:30-10:30: How to Prepare for Technical Interviews with Vanguard</p>
+        <p>10:30-11:30: Computer Graphics: Procedural Shape Generation Workshop</p>
+        <p>12:00-1:00: Lunch + Careers Panel</p>
+        <p>1:00-2:00: Intro to iOS Development Workshop</p>
+        <p>1:00-1:30: The Percentage Project, Inc.: Data-Driven Advocacy</p>
+        <p>1:30-4:00: Photobooth sponsored by The Percentage Project</p>
+        <p>2:00-4:00: Friendship Bracelet Making and Candy Bar</p>
+        <p>2:00-3:00: How to Start your own Hackathon/Initiative with FemmeHacks
+        Founders!</p>
+        <p>3:00-4:00: Mocktail Bar sponsored by Red Bull </p> 
+        <p>3:00-4:00: Product Management 101 with Microsoft PM</p>
+        <p>4:00-4:30: Winterfell Boba Break! </p>
+        <p>4:30-5:30: Talent Show</p>
+        <p>6:00-7:00 Dinner</p>
+        <p>7:30 Insomnia Cookies sponsored by Bloomberg</p>
+        <p>8:30: Hacking ends! SUBMIT YOUR PROJECTS ON DEVPOST!</p>
+        <p>9:00-9:30: Project Demos</p>
+        <p>9:30-9:45 Karaoke</p>
+        <p>9:45-10:30: Closing Ceremony + Awards</p>
+      </div>
     </div>
-    </div>
-    </div>
-
-
-
   </div>
-</div>
 
 
 
 
   <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script src="js/init.js"></script>
+
 
   </body>
 </html>

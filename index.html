@@ -16,7 +16,7 @@
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
    <!-- for favicons -->
@@ -27,62 +27,56 @@
     <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
 </head>
 <body>
-  <nav class="#FA8072" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="index.html" class="brand-logo"><img src = "white-logo.png" vspace="12"></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="index.html">home</a></li>
-        <li><a href="aboutus.html">about us</a></li>
-        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScDZVcmCbjiELwZ2_7EGA0fDxUaWhR4Ge5u73n3vj9PLppeFA/viewform?usp=sf_link" rel="external">register</a></li>
-        <li><a href="schedule.html">schedule</a></li>
-          <li><a href="sponsors.html">sponsors</a></li>
-        <li><a href="faq.html">faq</a></li>
-         <li><a href="conduct.html">code of conduct</a></li>
-      </ul>
+  <nav class="#FA8072">
+    <div class="nav-wrapper">
+      <a href="index.html" class="brand-logo"><img src="img/white-logo.png"
+      vspace="12"></a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 
-      <ul id="nav-mobile" class="side-nav">
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="index.html">home</a></li>
         <li><a href="aboutus.html">about us</a></li>
         <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScDZVcmCbjiELwZ2_7EGA0fDxUaWhR4Ge5u73n3vj9PLppeFA/viewform?usp=sf_link" rel="external">register</a></li>
         <li><a href="schedule.html">schedule</a></li>
         <li><a href="sponsors.html">sponsors</a></li>
         <li><a href="faq.html">faq</a></li>
-         <li><a href="conduct.html">code of conduct</a></li>
+        <li><a href="conduct.html">code of conduct</a></li>
       </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="index.html">home</a></li>
+    <li><a href="aboutus.html">about us</a></li>
+    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScDZVcmCbjiELwZ2_7EGA0fDxUaWhR4Ge5u73n3vj9PLppeFA/viewform?usp=sf_link" rel="external">register</a></li>
+    <li><a href="schedule.html">schedule</a></li>
+    <li><a href="sponsors.html">sponsors</a></li>
+    <li><a href="faq.html">faq</a></li>
+    <li><a href="conduct.html">code of conduct</a></li>
+  </ul>
 
-  <div id="index-banner" class="parallax-container" width="100%">
-    <div class="section no-pad-bot" width="100%">
-      <div class="container" width="100%">
-        <br><br>
-        <h1 id = "logo_text" class="header"><img src = "full-logo.png" width="45%"></h1>
-        <div class="row center">
-          <h5 class="header col s12 light">Philly's first all-women<span class = "asterisk">*</span>collegiate hackathon</h5>
-          <h6 class="header col s12 light">February 7-8th 2020 @ Penn Engineering and the Pennovation Center</h6>
-        </div>
-        <div class="row center">
+  <div class="parallax-container">
+    <div class="parallax"><img src="img/group.jpg" alt="femmehacks hackers"></div>
+    <div class="row center translucent">
+      <img src="img/full-logo.png" id="logo-header">
+      <h5 class="header col s12 light">Philly's first all-women<a class="asterisk" href="#disclaimer">*</a>collegiate hackathon</h5>
+      <h6 class="header col s12 light">February 7-8th 2020 @ Penn Engineering and the Pennovation Center</h6>
+    </div>
+    <div class="row center">
           <!-- <a href="https://drive.google.com/drive/folders/1lpTDW_ATbjC0cWGO5hBaZOkAd-QHXUHj?usp=sharing" rel="external" id="-button" class="btn-large waves-effect waves-light blue text-lighten-1"><i class="material-icons right">send</i>Starter code</a>
           <a href="https://drive.google.com/file/d/1Y4lyoRKDh8-8wEKeb43DnL4ZB0pXhAye/view?usp=sharing" id="download-button" class="btn-large waves-effect waves-light blue text-lighten-1"><i class="material-icons right">send</i>Hacker resource sheet</a>
           <a href="https://docs.google.com/presentation/d/1Y2ISMKzwNMBlSljW4a49EKo8RFRMftaEPovdyrgh86Y/edit?usp=sharing" id="download-button" class="btn-large waves-effect waves-light blue text-lighten-1"><i class="material-icons right">send</i>Opening Ceremony slides & API info</a>
           <a href="https://join.slack.com/t/femmehacks18/shared_invite/enQtMzA4NzkzMzUyMTc2LTkzNzYzYzRhNWJlNTc5NzY5NjExMjE5NDc3YmRkMjBkM2YwYjA4NjRiNWQ2NDQ4YTFmMjBhMTcyZmM2NzZjNjc" id="download-button" class="btn-large waves-effect waves-light blue text-lighten-1"><i class="material-icons right">send</i>SLACK CHANNEL</a> -->
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLScDZVcmCbjiELwZ2_7EGA0fDxUaWhR4Ge5u73n3vj9PLppeFA/viewform?usp=sf_link" rel="external" id="download-button" class="btn-large waves-effect waves-light blue text-lighten-1"><i class="material-icons right">send</i>Register Now!</a>
-          
-        </div>
-         <div class="row center">
-         <h5 class="disclaimer">We realize "women" is a complicated term. FemmeHacks welcomes trans and cis women, <br>as well as nonbinary and gender non-conforming folks :). Equality for all, y'all! </h5>
-         <div class="arrow bounce">
-
-</div>
-        </div>
-
-
-      </div>
+      <a
+      href="https://docs.google.com/forms/d/e/1FAIpQLScDZVcmCbjiELwZ2_7EGA0fDxUaWhR4Ge5u73n3vj9PLppeFA/viewform?usp=sf_link"
+      rel="external" id="download-button" class="btn-large waves-effect
+      waves-light indigo darken-4"><i class="material-icons
+      right">send</i>Register Now!</a>
     </div>
-    <div class="parallax"><img src="group.jpg" alt="Unsplashed background img 1"></div>
 
+    <div class="row center" id="callout">
+      <h5 id="disclaimer">*We realize "women" is a complicated term. FemmeHacks welcomes trans and cis women, as well as nonbinary and gender non-conforming folks :). Equality for all, y'all! </h5>
+    </div>
   </div>
-
 
   <div class="container">
     <div class="section">
@@ -122,17 +116,6 @@
     </div>
   </div>
 
- <!--  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">Organized by <a class="white-text" href="http://www.seas.upenn.edu/~wics">Women in Computer Science</a> at the University of Pennsylvania</a>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="philly.jpg"></div>
-  </div> -->
-
   <footer class="page-footer black">
    <div class="container">
       <div class="row">
@@ -166,8 +149,8 @@
   </footer>
 
   <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script src="js/init.js"></script>
 
 

@@ -16,7 +16,7 @@
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
   <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
@@ -26,10 +26,13 @@
     <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
 </head>
 <body>
-  <nav class="salmon" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="index.html" class="brand-logo"><img src = "white-logo.png" vspace="12"></a>
-      <ul class="right hide-on-med-and-down">
+  <nav class="#FA8072">
+    <div class="nav-wrapper">
+      <a href="index.html" class="brand-logo"><img src="img/white-logo.png"
+      vspace="12"></a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="index.html">home</a></li>
         <li><a href="aboutus.html">about us</a></li>
         <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScDZVcmCbjiELwZ2_7EGA0fDxUaWhR4Ge5u73n3vj9PLppeFA/viewform?usp=sf_link" rel="external">register</a></li>
@@ -38,87 +41,81 @@
         <li><a href="faq.html">faq</a></li>
         <li><a href="conduct.html">code of conduct</a></li>
       </ul>
-
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="aboutus.html">about us</a></li>
-        <li><a href="http://tiny.cc/femmehacks2019" rel="external">register</a></li>
-        <li><a href="schedule.html">schedule</a></li>
-        <li><a href="sponsors.html">sponsors</a></li>
-        <li><a href="faq.html">faq</a></li>
-         <li><a href="conduct.html">code of conduct</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
-<div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <br><br>
-
-        <div class="row center">
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="index.html">home</a></li>
+    <li><a href="aboutus.html">about us</a></li>
+    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScDZVcmCbjiELwZ2_7EGA0fDxUaWhR4Ge5u73n3vj9PLppeFA/viewform?usp=sf_link" rel="external">register</a></li>
+    <li><a href="schedule.html">schedule</a></li>
+    <li><a href="sponsors.html">sponsors</a></li>
+    <li><a href="faq.html">faq</a></li>
+    <li><a href="conduct.html">code of conduct</a></li>
+  </ul>
+  <div class="parallax-container">
+    <div class="parallax"><img src="img/sponsors2.JPG" width="100%" alt="hackers"></div>
+        <div class="row center translucent">
           <h4 class="header col s12 light">sponsors</h4>
         </div>
-
-        <br><br>
-
-      </div>
-    </div>
-    <div class="parallax"><img src="sponsors2.JPG" width="100%" alt="Unsplashed background img 1"></div>
+    </div>    
   </div>
-
 
   <div class="container">
-    <div class="section">
-
-
     <div class = "row">
       <div class = "intro">
-      FemmeHacks 2020 is still looking for sponsors! Please email pennfemmehacks@gmail.com if you're interested in being a sponsor.
-      <br>
-
-     </div>
-     </div>
-     </div>
-     </div>
-
-<div class="container">
-    <div class="section">
-      <h3>Gold Sponsors</h3>
-        <br><br>
-    <div class = "row center-align">
-      <a href="https://www.facebook.com/careers/"><img class="responsive-img" width="300" src="logos/facebook.png"><br><br>
-      <a href="https://www.vanguardjobs.com/"><img class="responsive-img" width="300" src="logos/vanguard.png"><br><br>
+        <p>FemmeHacks 2020 is still looking for sponsors! Please email pennfemmehacks@gmail.com if you're interested in being a sponsor.</p>
+      </div>
     </div>
-      <h3>Silver Sponsors</h3>
-        <br><br>
-    <div class = "row center-align">
-      <a href="https://careers.microsoft.com/us/en/"><img class="responsive-img" width="300" src="logos/Microsoft.PNG"><br><br>
-      <a href="https://www.alumni.upenn.edu/s/1587/gid2/16/interior_1col.aspx?sid=1587&gid=2&pgid=420"><img class="responsive-img" width="300" src="logos/tcpw.png"><br><br>
-    </div>
-    <br>
-    <h3>Bronze Sponsors</h3>
-          <br><br>
-    <div class = "row center-align">
-        <a href="https://www.redfin.com/careers"><img class="responsive-img" width="300" src="logos/redfin.jpg"><br><br>
-        <a href="https://www.linode.com/company/careers/"><img class="responsive-img" width="300" src="logos/linode-logo.png"><br><br><br>
-    </div>
-    <br>
-    <h3>Other Sponsors</h3>
-            <br><br>
-    <div class = "row center-align">
-      <a href="https://mackinstitute.wharton.upenn.edu/"><img class="responsive-img" width="300" src="logos/mack institute.png"><br>
-      <a href="https://careers.bloomberg.com/job/search"><img class="responsive-img" width="300" src="logos/bloomberg.jpg"><br>
-      <a href="https://jobs.redbull.com/us-en"><img class="responsive-img" width="250" src="logos/redbull.jpg"><br>
-      <a href="https://ripplematch.com/careers"><img class="responsive-img" width="250" src="logos/ripplematch.png"><br>
-    </div>
-
   </div>
-</div>
+
+  <div class="container">
+    <div class = "row center-align">
+      <h3>Gold Sponsors</h3>
+      <div class="col s6">
+        <a href="https://www.facebook.com/careers/"><img class="responsive-img" width="300" src="logos/facebook.png"></a>
+      </div>
+      <div class="col s6">
+        <a href="https://www.vanguardjobs.com/"><img class="responsive-img" width="300" src="logos/vanguard.png"></a>
+      </div>
+    </div>
+    <div class = "row center-align">
+      <h3>Silver Sponsors</h3>
+      <div class="col s6">
+        <a href="https://careers.microsoft.com/us/en/"><img class="responsive-img" width="300" src="logos/Microsoft.PNG"></a>
+      </div>
+      <div class="col s6">
+        <a href="https://www.alumni.upenn.edu/s/1587/gid2/16/interior_1col.aspx?sid=1587&gid=2&pgid=420"><img class="responsive-img" width="300" src="logos/tcpw.png"></a>
+      </div>
+    </div>
+    <div class = "row center-align">
+      <h3>Bronze Sponsors</h3>
+      <div class="col s6">
+        <a href="https://www.redfin.com/careers"><img class="responsive-img" width="300" src="logos/redfin.jpg"></a>
+      </div>
+      <div class="col s6">
+        <a href="https://www.linode.com/company/careers/"><img class="responsive-img" width="300" src="logos/linode-logo.png"></a>
+      </div>
+    </div>
+    <div class="row center-align">
+      <h3>Other Sponsors</h3>
+      <div class="col s3">
+        <a href="https://mackinstitute.wharton.upenn.edu/"><img class="responsive-img" width="300" src="logos/mack institute.png"></a>
+      </div>
+      <div class="col s3">
+        <a href="https://careers.bloomberg.com/job/search"><img class="responsive-img" width="300" src="logos/bloomberg.jpg"></a>
+      </div>
+      <div class="col s3">
+        <a href="https://jobs.redbull.com/us-en"><img class="responsive-img" width="250" src="logos/redbull.jpg"></a>
+      </div>  
+      <div class="col s3">
+        <a href="https://ripplematch.com/careers"><img class="responsive-img" width="250" src="logos/ripplematch.png"></a>
+      </div>
+    </div>
+  </div>
 
   <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script src="js/init.js"></script>
-
   </body>
 </html>
