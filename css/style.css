@@ -14,6 +14,7 @@ nav .nav-wrapper {
 
 p {
   line-height: 2rem;
+  font-size: 1.25em;
 }
 
 h3 {
@@ -49,12 +50,6 @@ h3 {
   height: auto;
   color: rgba(255,255,255,.9);
 
-}
-
-.parallax-container .container {
-  background-color: rgba(0,0,0,.4);
-  border-radius: 10px;
-  margin-top: 5%;
 }
 
 .parallax-container .header {
@@ -95,6 +90,24 @@ h3 {
   }
 }
 
+#schedule {
+  max-width: 100%;
+}
+
+.schedule p {
+  color: #000;
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+.schedule p:hover {
+  color: #FA8072;
+  font-size: 1.5em;
+}
+
+
 .container .collapsible-header{
   font-size: 20px;
   color:#FA8072;
@@ -113,16 +126,6 @@ h3 {
   font-size: inherit;
 }
 
-
-table td{
-  text-align: left;
-  font-size:20px;
-}
-
 footer .page-footer{
   color:green;
-}
-
-#schedule {
-  max-width: 100%;
 }
