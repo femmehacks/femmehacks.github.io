@@ -3,16 +3,14 @@
  * Use this file to override Materialize files so you can update
  * the core Materialize files in the future
  *
- * Made By MaterializeCSS.com
  */
 
  @import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
 
-nav ul a,
-nav .brand-logo {
-  color: #white;
+nav .nav-wrapper {
+  width: 90vw;
+  margin-left: 5vw; 
 }
-
 
 p {
   line-height: 2rem;
@@ -24,44 +22,50 @@ h3 {
 }
 
 .container{
-      font-family: Josefin Sans;
+  font-family: Josefin Sans;
 }
 
-.button-collapse {
-  color: #26a69a;
+#logo-header {
+  max-width: 20vw;
+}
+
+.translucent {
+  background-color: rgba(0,0,0,.4);
+  border-radius: 10px;
+  margin: 5%;
+}
+
+#callout {
+  background-color: rgba(255,255,255,.8);
+  margin: 10%;
+  padding: 2%;
+  border-radius: 10px;
 }
 
 .parallax-container {
   font-family: Josefin Sans;
-  min-height: 380px;
+  min-height: 30vh;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
 
 }
-  .parallax-container .section {
 
-    width: 100%;
-  }
+.parallax-container .container {
+  background-color: rgba(0,0,0,.4);
+  border-radius: 10px;
+  margin-top: 5%;
+}
 
-  .parallax-container .container {
-    background-color: rgba(0,0,0,.4);
-    border-radius: 10px;
-  }
-
-  .parallax-container .header {
-
-    text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
-    color: white;
-   
-
-  }
+.parallax-container .header {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+}
 
 .photo-grid img{
   height: 350px;
 }
-
 
 .asterisk {
   color:#FA8072;
@@ -77,7 +81,6 @@ h3 {
 }
 
 .intro{
-
   color:black;
   border-radius: 8px;
   text-align: center;
@@ -90,27 +93,17 @@ h3 {
     position: absolute;
     top: 40%;
   }
-  #index-banner .section {
-    top: 10%;
-  }
-}
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
 }
 
 .container .collapsible-header{
-font-size: 20px;
- color:#FA8072;
-background-color: black;
+  font-size: 20px;
+  color:#FA8072;
+  background-color: black;
 }
 
 
 .container .collapsible-body{
-
-background-color: white;
+  background-color: white;
 }
 
 .icon-block {
@@ -129,6 +122,7 @@ table td{
 footer .page-footer{
   color:green;
 }
-footer .page-footer {
-  
+
+#schedule {
+  max-width: 100%;
 }
